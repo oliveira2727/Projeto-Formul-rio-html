@@ -1,0 +1,43 @@
+<h1> Meu Formulário</h1>
+<form action="https://formspree.io/f/xeqdjydg"  method="POST">
+   <p>
+      <label>Digite seu nome</label><br>
+    <input placeholder="Digite algo....." type="text" required="required" value="São Paulo" name="Telefone"> 
+
+   </p>
+
+   <p>
+       <label>Digite uma mensagemn</label><br>
+       <textarea rows="10" cols="60" namne="mensagem" required placeholder="Digite algo....">Mensagem</textarea>
+    </p>
+    <p>
+        <label>Escolha os Esportes que você pratica</label><br>
+        <ul>
+            <li><input checked="checked" value="SIM" name="judo" type="checkbox">Judô</li>
+            <li><input value="SIM" name="futebol" type="checkbox">Futebol</li>
+            <li><input value="SIM" name="basquete" type="checkbox">Basquete</li>
+        </ul>
+    </p>
+    <p>
+        <label>Escolha sua cor favorita:</label>
+        <ul>
+            <li><input value="VERMELHO" name="corFavorita" type="radio"> Vermelho</li>
+            <li><input value="BRANCO" name="corFavorita" type="radio"> Branco</li>
+            <li><input value="PRETO" name="corFavorita" type="radio"> Preto</li>
+        </ul>
+    </p>
+    <p>
+        <label>Escolha sua Cidade</label><br>
+        <select>
+            <option>Recife</option>
+            <option>Rio de Janeiro</option>
+            <option>São Paulo</option>
+        </select>
+    </p>
+    <P>
+        <input value="SIM" name="termosDocontrato" type="checkbox"> Eu aceito os termos de uso do site
+    </P>
+
+   <button type="submit">Enviar</button>
+
+</form>
